@@ -29,6 +29,8 @@ dependencies:
   http: ^0.12.0+4
   shared_preferences: any
   page_view_indicator: any
+  url_launcher: any
+  share: any
 
 
 
