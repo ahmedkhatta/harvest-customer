@@ -55,6 +55,7 @@ flutter:
     - assets/images/sp2.png
     - assets/images/sp3.jpg
     - assets/images/sp4.jpg
+    - assets/images/photobaye.png
 
   fonts:
     - family: Lato
