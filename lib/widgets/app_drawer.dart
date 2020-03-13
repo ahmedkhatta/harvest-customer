@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:harvestcustmer/Screens/mazad_screen.dart';
 import 'package:harvestcustmer/Screens/seting%20screen.dart';
 import 'package:harvestcustmer/Screens/settings_account_screen.dart';
 import '../Screens/cart_screen.dart';
@@ -29,13 +30,15 @@ class AppDrawer extends StatelessWidget {
               Navigator.of(context).pushNamed(CartScreen.routeName);
               //Navigator.of(context).pushReplacement (CustomRoute(builder: (ctx)=>OrderScreen(),));
             },),
-//          Divider(),
-//          ListTile(leading: Icon(Icons.edit),
-//            title: Text('ادارة المنتجات'),
-//            onTap: (){
-//              Navigator.of(context).pushReplacementNamed(UserProductsScreen.routeName);
-//
-//            },),
+          Divider(),
+          ListTile(leading: Icon(Icons.shopping_cart),
+            title: Text('  منتجات المزاد'),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => new  UserProductsScreenMazad()));
+            },),
           Divider(),
           ListTile(leading: Icon(Icons.person),
             title: Text('  الملف الشخصي'),

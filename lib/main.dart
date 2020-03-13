@@ -81,7 +81,7 @@ class MyHome extends StatelessWidget {
                   : AuthScreen(),
             ),
             routes: {
-              ProductDetailsScreen.routName: (ctx) => ProductDetailsScreen(),
+               ProductDetailsScreen.routName: (ctx) => ProductDetailsScreen(),
               OrdersScreen.routeName: (ctx) => OrdersScreen(),
               CartScreen.routeName: (ctx) => CartScreen(),
               UserProductsScreen.routeName: (ctx) => UserProductsScreen(),
