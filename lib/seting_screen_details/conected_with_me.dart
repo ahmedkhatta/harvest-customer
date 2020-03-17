@@ -9,16 +9,12 @@ class Conected_me extends StatefulWidget {
 
 class _MyHomePageState extends State<Conected_me> {
   @override
-  var facebook = "https://www.facebook.com/akhattab595";
-  var linkedin = "https://www.linkedin.com/in/ahmed-khattab-a421b118b/";
+  var facebook = "https://www.facebook.com/ ";
+
   var mail = "https://mail.google.com/mail/u/0/?tab=rm#inbox";
   var whatsapp = "https://web.whatsapp.com/";
   void openurl() async {
     await launch(facebook);
-  }
-
-  void openurllinkedin() async {
-    await launch(linkedin);
   }
 
   void openmail() async {
@@ -109,7 +105,7 @@ class _MyHomePageState extends State<Conected_me> {
                         onTap: openwhatsapp,
                         child: Center(
                           child: Text(
-                            '01279658745',
+                            '055555555',
                             style: TextStyle(
                                 color: Colors.white, fontFamily: 'Montserrat'),
                           ),
@@ -129,7 +125,7 @@ class _MyHomePageState extends State<Conected_me> {
                         onTap: openmail,
                         child: Center(
                           child: Text(
-                            ' akhattab595@gmail.com',
+                            'harvistapp@gmail.com',
                             style: TextStyle(
                                 color: Colors.white, fontFamily: 'Montserrat'),
                           ),
