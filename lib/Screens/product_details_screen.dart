@@ -50,7 +50,7 @@ class ProductDetailsScreen extends StatelessWidget {
               height: 10.0,
             ),
             Text(
-              "\$${loadedProduct.price}",
+              "\$SR{loadedProduct.price}",
               style: TextStyle(
                 color: Colors.grey,
                 fontSize: 20.0,
